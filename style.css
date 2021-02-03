@@ -49,3 +49,23 @@ a {
   border-radius: 50%;
   box-shadow: 0 0 8px rgb(0 0 0 / 30%);
 }
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 32px;
+}
+
+.list-inline a {
+  margin: 8px;
+  font-size: 56px;
+  color: #0F148A;
+}
+
+.list-inline a:hover {
+  color: #46498c;
+}
